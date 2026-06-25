@@ -2,19 +2,21 @@
 <flowgorithm fileversion="4.2">
     <attributes>
         <attribute name="name" value="exercise-1"/>
-        <attribute name="authors" value="User"/>
+        <attribute name="authors" value="pelly"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-06-25 03:34:55 PM"/>
-        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzoyODo1OSBQTTsyNzY1"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzozNDo1NSBQTTsxOzI4NjY="/>
+        <attribute name="saved" value="2026-06-25 08:57:08 PM"/>
+        <attribute name="created" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6NDU6MTEgUE07Mjg4Mg=="/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6NTA6MjIgUE07MjtwZWxseTtMQVBUT1AtSEI3RENOUzA7MjAyNi0wNi0yNTswNzowNTozNSBQTTtleGVyY2lzZS0zLmZwcmc7NzQxOQ=="/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6NTc6MDggUE07MTsyOTk5"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="RinggitAmount" type="Integer" array="False" size=""/>
-            <input variable="RinggitAmount"/>
-            <declare name="AmountOfBaht" type="Integer" array="False" size=""/>
-            <output expression="AmountOfBaht" newline="True"/>
+            <declare name="amountofringgit, totalringgitleft, amountofbaht" type="Real" array="False" size=""/>
+            <input variable="amountofringgit"/>
+            <assign variable="totalringgitleft" expression="amountofringgit - (amountofringgit * 2/100)"/>
+            <assign variable="amountofbaht" expression="totalringgitleft * 8.11"/>
+            <output expression="amountofbaht" newline="True"/>
         </body>
     </function>
 </flowgorithm>

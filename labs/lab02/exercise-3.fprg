@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-3"/>
+        <attribute name="authors" value="pelly"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 08:41:11 PM"/>
+        <attribute name="created" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDc6MDU6MzUgUE07Mjg4Mw=="/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6MDg6MzQgUE07NDtwZWxseTtMQVBUT1AtSEI3RENOUzA7MjAyNi0wNi0yNTswNzoyODoyMyBQTTs1OTQx"/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6NDE6MTEgUE07MzsyOTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totalhour, amountofwatt, totalcost, totalpaymentpermonth" type="Real" array="False" size=""/>
+            <input variable="totalhour"/>
+            <input variable="amountofwatt"/>
+            <assign variable="totalcost" expression="((amountofwatt/1000)* totalhour)&#13;&#10; * 0.218"/>
+            <output expression="totalcost" newline="True"/>
+            <assign variable="totalpaymentpermonth" expression="totalcost * 30"/>
+            <output expression="totalpaymentpermonth" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

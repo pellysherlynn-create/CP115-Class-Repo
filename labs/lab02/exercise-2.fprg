@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="pelly"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 08:38:48 PM"/>
+        <attribute name="created" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDY6NTE6MzggUE07Mjg4Ng=="/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6MzM6MjUgUE07MTtwZWxseTtMQVBUT1AtSEI3RENOUzA7MjAyNi0wNi0yNTswNzoyODoyMyBQTTs1OTM2"/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6Mzg6NDggUE07MjszMDAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lengthoftimber, totallength, numofprice, totalprice" type="Real" array="False" size=""/>
+            <input variable="lengthoftimber"/>
+            <input variable="numofprice"/>
+            <assign variable="totallength" expression="(lengthoftimber/100)+ (10/100 * (lengthoftimber/100))"/>
+            <assign variable="totalprice" expression="totallength * numofprice"/>
+            <output expression="totallength" newline="True"/>
+            <output expression="totalprice" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

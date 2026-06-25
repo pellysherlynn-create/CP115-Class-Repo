@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-4"/>
+        <attribute name="authors" value="pelly"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 08:44:32 PM"/>
+        <attribute name="created" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDc6MTY6MTggUE07Mjg4Ng=="/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDc6NDk6NDQgUE07MTtwZWxseTtMQVBUT1AtSEI3RENOUzA7MjAyNi0wNi0yNTswNzoyODoyMyBQTTs1OTQz"/>
+        <attribute name="edited" value="cGVsbHk7TEFQVE9QLUhCN0RDTlMwOzIwMjYtMDYtMjU7MDg6NDQ6MzIgUE07NDsyOTk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="totaldistance, totallitres, totalpayment" type="Real" array="False" size=""/>
+            <input variable="totaldistance"/>
+            <assign variable="totallitres" expression="totaldistance * (8/100)"/>
+            <assign variable="totalpayment" expression="totallitres * 2.05"/>
+            <output expression="totalpayment" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
